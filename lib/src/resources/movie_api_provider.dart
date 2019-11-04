@@ -6,7 +6,7 @@ import '../models/trailer_model.dart';
 
 class MovieApiProvider {
   Client client = Client();
-  final _apiKey = '5b529a0c2f336b2a1b182c229232ba11';
+  final _apiKey = 'You_Api_Key_Here';
   final _baseUrl = "http://api.themoviedb.org/3/movie";
 
   Future<ItemModel> fetchMovieList() async {
